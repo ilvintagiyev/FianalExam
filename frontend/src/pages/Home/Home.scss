@@ -4,6 +4,12 @@
     background-image: url("https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp");
     flex-wrap: nowrap;
     background-repeat: no-repeat;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: self-start;
 
     h1{
         color: white;
@@ -26,6 +32,32 @@
         display: flex;
 
     }
+}
+.buttons{
+    display: flex;
+}
+
+.basket{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0) ;
+    border: 2px solid white;
+    width:200px ;
+    height:50px ;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.clumber{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:white ;
+    border: 2px solid;
+    width:200px ;
+    height:50px ;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+   
 }
 .section2{
     width: 100%;

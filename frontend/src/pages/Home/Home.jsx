@@ -37,8 +37,10 @@ function Home() {
       <div className="section1">
         <h1>Shop With Us</h1><br />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam <br /> assumenda ea quo cupiditate facere deleniti fuga officia.</p>
-        <button >SHOPNOW</button>
-        <button >CLUBMEMBERSHIP</button>
+        <div className="buttons">
+        <button className="basket"><p>SHOP NOW</p></button>
+        <button className="clumber" >CLUB MEMBERSHIP</button>
+        </div>
       </div>
 
 
@@ -59,8 +61,10 @@ function Home() {
                   <img src={x.image} alt="" />
                   <h2>{x.name}</h2>
                   <p>Lorem ipsum dolor sit amet.</p>
-                  <button>Basket</button>
+                 <div>
+                 <button >Basket</button>
                   <button><Link to={`/Detail/${x._id}`}>Detail</Link></button>
+                 </div>
                   <FavoriteBorderIcon></FavoriteBorderIcon>
 
                 </div>
