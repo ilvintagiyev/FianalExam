@@ -1,0 +1,25 @@
+.general{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    background-color: white;
+    padding: 30px;
+    .span1{
+        font-size: xx-large;
+        padding-right: 900px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        .span2{
+            color: rgb(243, 132, 27);
+            font-size: xx-large;
+            font-weight: bold;
+        }
+    }
+
+    .link{
+        color: black;
+        font-size: x-large;
+    }
+}
