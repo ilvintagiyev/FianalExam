@@ -45,7 +45,7 @@ async function deleteproducts(id) {
         <tr key={x._id}>
           <td><img src={x.image} alt="" /></td>
           <td>{x.name}</td>
-          <td><button onClick={()=>deleteproducts(x._id)}>Delete</button></td>
+          <td><button style={{color:"red"}} onClick={()=>deleteproducts(x._id)}>Delete</button></td>
         </tr>
         ))}
 

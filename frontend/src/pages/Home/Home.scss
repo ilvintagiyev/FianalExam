@@ -7,11 +7,11 @@
 
     h1{
         color: white;
-        font-size: xx-large;
         font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 70px;
         
     }
     p{
@@ -24,6 +24,7 @@
     }
     button{
         display: flex;
+
     }
 }
 .section2{
@@ -58,6 +59,18 @@
         flex-wrap: wrap;
         .card{
             width: 33%;
+            button{
+                font-weight: 800;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                border-radius: 5px;
+                border: 1px solid black;
+                width: 50px;
+                height: 30px;
+                background-color: rgb(152, 160, 46);
+                color: white;
+                list-style: none;
+                text-decoration: none;
+            }
             p{
                 color: black;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -69,4 +82,85 @@
         }
     }
     
+}
+.section3{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .allred{
+        display: flex;
+        width: 80%;
+        height: 80vh;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        .texts{
+            h4{
+                color: gray;
+            }
+            h1{
+                font-size: xx-large;
+            }
+            p{
+                font-size: x-large;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            button{
+                width: 140px;
+                height: 40px;
+                border-radius: 4px;
+            }
+        }
+        .image{
+            img{
+                width: 700px;
+                height: 600px;
+            }
+        }
+    }
+    
+}
+
+
+.section4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    .texts2{
+        h4{
+            font-weight: bold;
+        }
+    }
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    .allimages{
+        display: flex;
+    }
+}
+
+
+
+
+.section5{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    button{
+        border: 3px solid black;
+        width: 200px;
+        height: 50px;
+    }
 }
